@@ -18,7 +18,7 @@ var l_centerLogo = false;
 
 // Display current map and gamemode?
 // 'true' or 'false'
-var l_displayMapGamemode = false;
+var l_displayMapGamemode = true;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
