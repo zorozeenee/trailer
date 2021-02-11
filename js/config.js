@@ -94,7 +94,7 @@ var l_bgImagesRandom = true;
 // (Image-background only)
 // Delay between background images changes
 // in milliseconds
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 50000;
 
 // (Image-background only)
 // Image background fade velocity
@@ -111,7 +111,7 @@ var l_bgDarkening = 50;
 
 // Play music during the loading screen?
 // 'true' or 'false'
-var l_music = true;
+var l_music = false;
 
 // Display current music name?
 // 'true' or 'false'
@@ -123,8 +123,6 @@ var l_musicDisplay = false;
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
 	{ogg: "track1.ogg", name: "1"},
-	{ogg: "track2.ogg", name: "2"},
-	{ogg: "track3.ogg", name: "3"},
 ];
 
 // Random music order?
@@ -141,9 +139,9 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Tank Warfare",
-	"Artillery Destruction",
-	"Aerial Fighting",
+	"Custom NPCs",
+	"Combined Arms",
+	"Full Scale Conflict",
 ];
 
 // Random message order?
